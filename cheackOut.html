@@ -1,0 +1,628 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Yumpee</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.0/LineIcons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.4.7/dist/css/ionicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="editor/summernote-bs4.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.css">
+</head>
+
+<body>
+    <!--************** Back to up button **********************-->
+    <a href="#" class="up">
+        <i class="lni-chevron-up"></i>
+    </a>
+    <!--***********************************************************-->
+    <!--Start Black-header Section-->
+    <div class="black-header">
+        <div class="header-contenent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-5 col-12">
+                        <ul class="support">
+                            <li><i class="lni-phone"></i> +0123 456 789</li>
+                            <li><i class="lni-envelope"></i> Yumpee@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-7 col-xs-12 shopcartreg">
+                        <div class="cart-section float-right">
+                            <button class="cart-btn shoppingCart dropdown-toggle" data-toggle="dropdown">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="cartText">
+                                    <span class="cartNumber">2</span>
+                                    <span>Cart</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <ul class="subCartmenu">
+                                    <li class="singlecartitem">
+                                        <div class="cart-img">
+                                            <a href="##">
+                                                <img src="img/cart/1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="cart-info float-left">
+                                            <a href="##">Chaz Kangeroo
+                                                Hoodie</a>
+                                            <p class="quantity">×1</p>
+                                            <p class="cart-price">$78.80</p>
+                                        </div>
+                                        <button class="Remove" title="Remove"><i class="fas fa-times"></i></button>
+                                    </li>
+                                    <li class="singlecartitem">
+                                        <div class="cart-img">
+                                            <a href="#"><img src="img/cart/2.jpg" alt=""></a>
+                                        </div>
+                                        <div class="cart-info float-left">
+                                            <a href="##">Voyage
+                                                Yoga Bag</a>
+                                            <p class="quantity">×1</p>
+                                            <p class="cart-price">$242.00</p>
+                                        </div>
+                                        <button class="Remove" title="Remove">
+                                            <i class="fas fa-times"></i></button>
+                                    </li>
+                                    <li class="Total">
+                                        <h6>Sub-Total :<span class="float-right">$264.00</span></h6>
+                                        <h6>Eco Tax (-2.00) :<span class="float-right">$4.00</span></h6>
+                                        <h6>VAT (20%) :<span class="float-right">$52.80</span></h6>
+                                        <h6>Total :<span class="float-right">$320.80</span></h6>
+                                    </li>
+                                    <li>
+                                        <p class="cartButtons">
+                                            <a href="viewCart.html">View Cart</a>
+                                            <a href="checkout.html">Checkout</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!--  <div class="socialIcons float-right">
+                                                            <a class="facebook" href="##"><i class="lni-facebook-filled"></i></a>
+                                                            <a class="twitter" href="##"><i class="lni-twitter-filled"></i></a>
+                                                            <a class="instagram" href="##"><i class="lni-instagram-filled"></i></a>
+                                                            <a class="linkedin" href="##"><i class="lni-linkedin-filled"></i></a>
+                                                            <a class="google" href="##"><i class="lni-google-plus"></i></a>
+                                                    </div>-->
+
+                        <div class="regist home3reg float-right">
+                            <a href="login.html"><i class="lni-lock"></i> Log In</a> |
+                            <a href="##"><i class="lni-pencil"></i> Register</a>
+                        </div>
+                    </div>
+
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top scrolling-navbar top-nav-collapse">
+            <div class="container">
+
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="navbar-header"></div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-pills mr-auto w-100 justify-content-center">
+                        <li class="nav-item dropdown activepage">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Home</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="index.html">Home1</a>
+                                <a class="dropdown-item" href="index2.html">Home2</a>
+                                <a class="dropdown-item" href="index3.html">Home2</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="shope.html">SHOP</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="categories.html">CATEGORIES</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">LISTING</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="categories.html">Add
+                                    Grid </a>
+                                <a class="dropdown-item" href="listing.html">Listing
+                                    Detail</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false" id="navbarDropdown3">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <a class="dropdown-item" href="pages-services.html">Services
+                                </a>
+                                <a class="dropdown-item" href="adsPost.html">Ads Post</a>
+                                <a class="dropdown-item" href="FAQ.html">FAQ</a>
+                                <a class="dropdown-item" href="404.html">404 </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false" id="navbarDropdown4">Blogs</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                <a class="dropdown-item" href="blog-right.html">RightSide
+                                </a>
+                                <a class="dropdown-item" href="blog-details.html">Blog
+                                    Details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="postad-btn">
+                        <a class="btn" href="##"><i class="lni-pencil-alt"></i> Post an Ad</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="mobile-menu">
+                <li class="activemobile">
+                    <a>Home</a>
+                    <ul class="dropdown fadeIn">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index2.html">Home 2</a></li>
+                        <li><a class="activemobile" href="index3.html">Home 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="shope.html">shop</a>
+                </li>
+                <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a>Listings</a>
+                    <ul class="dropdown">
+                        <li><a href="AddGrid.html">Ad Grid</a></li>
+                        <li><a href="lisiting.html">Listing Detail</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Pages</a>
+                    <ul class="dropdown">
+                        <li><a href="pages-services.html">Services</a></li>
+                        <li><a href="adsPost.html">Ads Post</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="404.html">404</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="blog-right.html">Blog - Right Sidebar</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <!--End mobile Menu-->
+            </ul>
+        </nav>
+
+    </div>
+
+    <!-- Nav End-->
+    <!--check out page content start-->
+        <!--PAGE CONTENT START-->
+        <div class="cheackOut">
+                <!--Home Link at the header-->
+                <div class="pageHeader">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="homeLink">
+                                    <li>
+                                        <a href="index3.html">home 3</a>
+                                    </li>
+                                    <li> <i class="fas fa-angle-right"></i>
+                                        Checkout</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------->
+                <!--MAIN SECTION SRART-->
+                <!--coupon-->
+                <div class="mainContent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="coupon">
+                                    <div class="couponItem">
+        
+                                        <h3>
+                                            <i class="far fa-calendar"></i>
+                                            Returning customer? <a href="#">Click here to login</a>
+                                        </h3>
+                                    </div>
+                                    <div class="couponItem">
+                                        <h3>
+                                            <i class="far fa-calendar"></i>
+                                            Have a coupon? <a href="#"> Click here to enter your code</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--CheackOut area-->
+                <div class="cheackOutContent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <h3 class="cheackOutTitle">Billing Details</h3>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="name">First name <span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="name" placeholder="" name="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="email">Username or email <span class="required">*</span></label>
+                                                <input type="email" class="form-control" id="email" placeholder="" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="companyName">Company name</label>
+                                                <input type="text" class="form-control" id="companyName" placeholder="" name="companyName">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="sel1">Country <span class="required">*</span></label>
+                                                <select class="form-control" id="sel1" name="sellist1">
+                                                    <option>Select Country...</option>
+                                                    <option>Albania</option>
+                                                    <option>Angola</option>
+                                                    <option>Argentina</option>
+                                                    <option>Austria</option>
+                                                    <option>Azerbaijan</option>
+                                                    <option>Bangladesh</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="StreetAddress">Street address <span class="required">*</span>
+                                                </label>
+                                                <input type="text" class="form-control" id="StreetAddress" placeholder="House number and street name"
+                                                    name="StreetAddress">
+        
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="apartment" placeholder="Apartment, suite, unit etc. (optional)"
+                                                    name="apartment">
+        
+                                            </div>
+                                        </div>
+        
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="city">Town / City <span class="required">*</span> </label>
+                                                <input type="text" class="form-control" id="city" placeholder="" name="city">
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="state">State / County</label>
+                                                <input type="text" class="form-control" id="state" placeholder="" name="state">
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="zip">Postcode / ZIP<span class="required">*</span> </label>
+                                                <input type="text" class="form-control" id="zip" placeholder="" name="zip">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="check1">
+                                                    <input type="checkbox" class="form-check-input" id="check1" name="option1"
+                                                        value="something" checked>Create an account?
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="check2">
+                                                    <input type="checkbox" class="form-check-input" id="check2" name="option2"
+                                                        value="something">Ship to a different address?
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="comment">Order notes</label>
+                                                <textarea class="form-control" rows="5" id="notes" name="notes" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+        
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mytable">
+                                <div class="bgWhite">
+                                    <h3 class="cheackOutTitle">Your order</h3>
+                                    <table class="cheackOut-order" id="ordertable">
+                                        <thead>
+                                            <tr>
+                                                <th class="productName">Product</th>
+                                                <th class="productTotal">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="productName">Natus erro <strong>× 1</strong></td>
+                                                <td class="productTotal">$97.20</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr class="Subtotal">
+                                                <td>Subtotal</td>
+                                                <td><span>$97.00</span></td>
+                                            </tr>
+                                            <tr class="Shipping">
+                                                <td>Shipping</td>
+                                                <td>Free shipping</td>
+                                            </tr>
+                                            <tr class="total">
+                                                <td>toltal</td>
+                                                <td> <strong><span>$97.00</span></strong></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+        
+                                    <div class="payment">
+                                        <div class="payMetods">
+                                            <label>PayPal Express Checkout
+                                                <a href="#">
+                                                    <img src="img/Featurehome3/PayPal.png" alt="payment method">
+                                                </a>
+                                            </label>
+                                            <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal
+                                                account.</p>
+                                        </div>
+                                        <button class="button-payment" type="submit">Continue to payment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--main Section footer-->
+                <div class="Bluepagefooter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="icon float-left">
+                                        <i class="far fa-clock"></i>
+                                </div>
+                                <div class="info float-left">
+                                    <h3>Mon - Fri / 8:00 - 18:00</h3>
+                                    <p>Working Days/Hours!</p>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+        
+                            <div class="col-12 col-md-4 col-lg-4 middel">
+                                <div class="icon float-left">
+                                        <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info float-left">
+                                        <h3>+88 12 345 6789</h3>
+                                        <p>Free support line!</p>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+        
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="icon float-left">
+                                        <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info float-left">
+                                        <h3>Support@Gmail.Com</h3>
+                                        <p>Orders Support!</p>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------------------------MAIN SECTION END------------------------------------>
+    <!--check out page content end-->
+    <!-- BlackFooter Section Start-->
+    <div class="blackfooter home3-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-xs-6 col-mb-12">
+
+                    <h2>CONTACT INFO</h2>
+                    <div class="logoFtext">
+                        <p> We are a team of designers and developers that
+                            create high quality Magento, Prestashop,
+                            Opencart. </p>
+                    </div>
+                    <ul>
+                        <li>
+                            <span> <i class="lni-map-marker"></i></span>
+                            <span>The Barn, Ullenhall, Henley in Arden B578
+                                5CC, England</span>
+                        </li>
+                        <li>
+                            <span><i class="lni-phone"></i></span>
+                            <span>+123.456.789 - +123.456.678</span>
+                        </li>
+                        <li>
+                            <span><i class="lni-envelope"></i></span>
+                            <sapn>support@plazathemes.com</sapn>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-6 col-mb-12">
+                    <div class="footSlide owl-carousel">
+                        <div>
+                            <h2>FROM OUR BLOG</h2>
+
+                            <div class="articles">
+                                <div class="image float-left">
+                                    <a href="#">
+                                        <img src="img/Featurehome3/article1.jpg">
+                                    </a>
+                                </div>
+                                <div class="artText float-left">
+                                    <h4>
+                                        <a href="#">Back To Basic-Black Denim</a>
+                                    </h4>
+                                    <span>oct 03</span>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+
+                            <div class="articles">
+                                <div class="image float-left">
+                                    <a href="#">
+                                        <img src="img/Featurehome3/article2.jpeg">
+                                    </a>
+                                </div>
+                                <div class="artText float-left">
+                                    <h4>
+                                        <a href="#">Back To Basic-Black Denim</a>
+                                    </h4>
+                                    <span>oct 03</span>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xs-6 col-mb-12">
+                    <h2>INFORMATION</h2>
+                    <ul class="footerLinks">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Gift Certificates</a></li>
+                        <li><a href="#">Affiliate</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xs-6 col-mb-12">
+                    <h2>CUSTOMER SERVICE</h2>
+                    <ul class="footerLinks">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Wish List</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-xs-6 col-mb-12">
+                    <h2>EXTRAS</h2>
+                    <ul class="footerLinks">
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Gift Certificates</a></li>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Specials</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order History</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <!-- BlackFooter Section End-->
+    <!--***************************************************************************************************-->
+    <div class="Footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <p> copyright@2018</p>
+                </div>
+                <div class="col-lg-6 col-md-6 text-right">
+                    <a href="#">
+                        <img src="img/Featurehome3/skrill.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Call Java Script Files-->
+    <script src="js/jquery3.3.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="editor/summernote.bs4.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
